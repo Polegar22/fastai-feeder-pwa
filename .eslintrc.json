@@ -1,0 +1,26 @@
+{
+    "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:vue/recommended"
+    ],
+    "rules": {
+    "prettier/prettier": [
+    "error",
+    {
+    "singleQuote": true,
+    "semi": false,
+    "endOfLine":"auto"
+    }
+    ],
+    "vue/max-attributes-per-line": "off",
+    "vue/html-self-closing": ["error", {
+    "html": {
+    "void": "always"
+    }
+    }]
+    },
+    "plugins": [
+    "prettier"
+    ]
+}
