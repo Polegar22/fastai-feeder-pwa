@@ -1,8 +1,8 @@
 <template>
   <div class="imageReconstruction">
     <custom-title
-      title="Let the IA correct your imperfections : "
-      subtitle="Upload a face and select the parts you want to clean"
+      title="Image reconsruction :"
+      subtitle="Upload a face and select the part you want to recontruct"
     />
     <drawable-canvas
       ref="drawableCanvas"

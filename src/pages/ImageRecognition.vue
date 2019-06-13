@@ -20,6 +20,16 @@
         </div>
       </div>
     </vue-dropzone>
+    <span class="disclaimer">
+      Disclaimer : This model is trained with the first 200 results of Google
+      images for "beautiful man and beautiful woman", so this is
+      <span class="important-text">totally bias</span> ! I did this model to see
+      how a classification model would perform on such a subjective task.
+      Because a man with a beard can be beautiful but a woman with a beard ...
+      not so much. It means that the model had to understand that the "standard
+      of beauty" (according to my totally biased dataset) are not the same for a
+      man and a woman.
+    </span>
   </div>
 </template>
 
@@ -74,8 +84,23 @@ export default {
   width: 800px;
 }
 
+.disclaimer {
+  width: 500px;
+  margin: 25px;
+  color: grey;
+
+  .important-text {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+}
+
 @media (max-width: 959px) {
   #dropzone {
+    width: auto;
+  }
+
+  .disclaimer {
     width: auto;
   }
 }

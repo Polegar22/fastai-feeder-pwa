@@ -2,7 +2,7 @@
   <div class="nlpUpload">
     <custom-title
       title="John Danaher Generator"
-      subtitle="AI will complete your sentence in the style of John Danaher"
+      subtitle="AI will complete your sentence in the style of the famous BJJ coach : John Danaher"
     />
     <div>
       <div class="nlpInputs">
