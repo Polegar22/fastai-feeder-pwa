@@ -1,6 +1,6 @@
 # fastai-feeder-pwa
 
-> Progressive webapp to upload file to trained models with fastai
+> Progressive webapp to upload file into trained models with fastai
 
 ## Build Setup
 
