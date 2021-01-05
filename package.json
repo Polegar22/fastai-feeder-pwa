@@ -12,7 +12,7 @@
     "test": "npm run unit"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "sass-resources-loader": "^2.0.0",
     "vue": "^2.5.2",
     "vue-audio-recorder": "^3.0.1",
